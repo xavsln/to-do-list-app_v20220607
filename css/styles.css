@@ -2,7 +2,9 @@
 
 body {
   font: normal normal 13px/16px "Open Sans", sans-serif;
-  background: #dfdfdf;
+  /* background: #dfdfdf; */
+  background-image: url("../img/protruding-squares.svg");
+  /* background by SVGBackgrounds.com */
 }
 
 .container{
@@ -11,7 +13,8 @@ body {
   margin: 0 auto;
   margin-top: 40px;
   background: white;
-  border-radius: 5px;}
+  border-radius: 5px;
+}
 
 form {
   display: inline-block;
