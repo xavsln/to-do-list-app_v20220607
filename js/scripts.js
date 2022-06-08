@@ -38,7 +38,8 @@ function newItem(){
 
   // We create an eventlistener on the X button
   crossOutButton.on('click', ()=> {
-    li.addClass('delete');
+    // li.addClass('delete');
+    li.remove();
   });
 
   // We use the sortable() method from jQuery in order to be able to sort items inside our #list
